@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <html>
+     <head>
+   <title>Calc</title>
+  <style type="text/css">
+  #answer{
+  width: 400px;
+  height: 30px;
+  box-shadow: inset 5px 5px 3px gray, inset -5px -5px 3px white;
+  background-color: lightblue;
+  font-style: italic;
+  }
+  .del{
+  width: 435px;
+  height: 60px;
+  border: none;
+  }
+  input{
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 5px gray, -7px -7px 5px white;
+  border: none;
+  font-size: 20px;
+  width: 90px;
+  height: 90px;
+  font-weight: bold;
+  background-color: lightblue;
+  outline: none;
+  }
+  .calc{
+  box-shadow: 19px 19px 9px gray;
+  background-color: lightgray;
+  border-radius: 20px;
+  padding: 19px;
+  display: inline-block;
+  }
+  input:hover{
+  box-shadow: inset 5px 5px 3px blue, inset -5px -5px 3px yellow;
+  }
+  
+  </style>
+   </head>
+      <body>
+    <div class="container" align="center">
+      <h1>Calc</h1>
+      
+    <form name="forms">
+    <div class="calc">
+  <input type="" name="screen" id="answer">
+         <br>
+  <input type="button" value="7" onclick="form.screen.value+='7'">
+  <input type="button" value="8" onclick="form.screen.value+='8'">
+  <input type="button" value="9" onclick="form.screen.value+='9'">
+  <input type="button" value="/" onclick="form.screen.value+='/'">
+         <br>
+  <input type="button" value="4" onclick="form.screen.value+='4'">
+  <input type="button" value="5" onclick="form.screen.value+='5'">
+  <input type="button" value="6" onclick="form.screen.value+='6'">
+  <input type="button" value="+" onclick="form.screen.value+='+'">
+           <br>
+  <input type="button" value="1" onclick="form.screen.value+='1'">
+  <input type="button" value="2" onclick="form.screen.value+='2'">
+  <input type="button" value="3" onclick="form.screen.value+='3'">
+  <input type="button" value="*" onclick="form.screen.value+='*'">
+          <br>
+  <input type="button" value="." onclick="form.screen.value+='.'">
+  <input type="button" value="0" onclick="form.screen.value+='0'">
+  <input type="button" value="=" onclick="form.screen.value = eval(form.screen.value)">
+  <input type="button" value="-" onclick="form.screen.value+='-'">
+          <br>
+  <input type="button" value="(" onclick="form.screen.value+='('">
+  <input type="button" value=")" onclick="form.screen.value+=')'">
+  <input type="button" value="%" onclick="form.screen.value+='%">
+          <br>
+  <input type="button" value="Delete" onclick="form.screen.value =''" class="del">
+  </div>
+  </form>
+ </div>
+    </body>
+      </html>

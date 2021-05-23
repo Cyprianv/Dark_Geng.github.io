@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+  <html>
+ <head>
+    <title>Form</title>
+    <meta charset="UTF-8" />
+    <meta lang="en">
+    <style type="text/css">
+    body{
+    background-color: lightblue;
+    }
+    form{
+    background-color: gray;
+    border-radius: 15px;
+    padding: 80px;
+    display: block;
+    box-shadow: -5px -5px 3px blue;
+    margin-top: 50px;
+    }
+    h1, h2{
+    text-align: center;
+    color: Darkred;
+    font-style: italic;
+    font-weight: bold;
+    }
+    input[type="text"]{
+    width: 80%;
+    height: 20px;
+    text-align: center;
+    margin: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #C66DAC;
+    font-style: italic;
+    font-weight: bold;
+    }
+    input[type="checkbox"]{
+    display: block;
+    width: 50%;
+    height: 20px;
+    }
+    input[type="password"]{
+    width: 80%;
+    height: 20px;
+    margin: 10px;
+    outline: none;
+    border-radius: 10px;  
+    text-align: center;
+    border: 2px solid #C66DAC;
+    font-style: italic;
+    font-weight: bold;
+    }
+    input[type="button"]{
+    float: right;
+    width: 95px;
+    height: 30px;
+    color: blue;
+    background-color: #78C4A8;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    }
+    input[type="button"]:hover{
+    box-shadow: inset 4px 4px 2px green, inset -4px -4px 2px white;
+    }
+    </style>
+  </head>
+     <body>
+     <form>
+      <div class="container">
+   
+      <h1>Name:-</h1>
+      <label>First Name:</label> <input type="text" name="First Name" placeholder="F Name" required="required">
+    <br>
+      <label>Last Name:</label> <input type="text" name="Last Name" placeholder="L Name" required="required">
+      <hr>
+      <h2>Gender:-</h2>
+      <label>Male</label> <input type="checkbox" name="Male">
+      <label>Female</label> <input type="checkbox" name="Female">
+      <label>Other</label> <input type="checkbox" name="Other">
+      <br>
+      <hr>
+      <label>Email:</label> <input type="text" name="Email" placeholder="Example@gmail.com"> 
+    <br>
+      <label>Pass:</label> <input type="Password" placeholder="Password">
+    <br>
+      <label>Phone:</label> <input type="text" name="Phone nomber" placeholder="+255">
+    <br>
+      <a href="malii.getwebpages.com" ><input type="button" value="submit"></a>
+      </div>
+      </form>
+     
+      
+    </body>
+   </html>
+      
