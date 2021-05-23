@@ -1,2 +1,3 @@
 # Dark_Geng.github.io
-Based in Programmin Language and CyberSecurity
+it is my mind to do that because I love to do that al all,,,
+Based on Programming Language and CyberSecurity...
