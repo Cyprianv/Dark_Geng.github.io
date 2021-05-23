@@ -1,3 +1,3 @@
 # Dark_Geng.github.io
-it is my mind to do that because I love to do that al all,,,
+it is my mind to do that because I love to do that at all,,,
 Based on Programming Language and CyberSecurity...
